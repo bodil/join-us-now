@@ -1,0 +1,18 @@
+* Why we do open source
+** Where it came from
+*** The parable of rms and the printer.
+**** 70s hacker ethos - share software for good karma.
+*** Going corporate as open source.
+**** Sharing back means reduced development cost.
+** The movements' leaders are unpleasant white men.
+*** The ideas are too important for one white guy.
+* Our collective knowledge (why it matters to me)
+** What we know is out there in public, and you can go find it and learn.
+** Free Software exists to safeguard it.
+*** This gives us - as a species - unprecedented agency!
+*** Intellectual property threatens our future.
+**** What if only Elon Musk knows how to go to Mars?
+** Open source alone is not enough.
+*** the four freedoms!
+** If not for Free Software, patent lawyers would rule us.
+*** We wouldn't be able to write a single line of code without risking getting sued by a megacorp with a patent portfolio.

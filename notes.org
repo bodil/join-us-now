@@ -1,18 +1,121 @@
-* Why we do open source
-** Where it came from
-*** The parable of rms and the printer.
-**** 70s hacker ethos - share software for good karma.
-*** Going corporate as open source.
-**** Sharing back means reduced development cost.
-** The movements' leaders are unpleasant white men.
-*** The ideas are too important for one white guy.
-* Our collective knowledge (why it matters to me)
-** What we know is out there in public, and you can go find it and learn.
-** Free Software exists to safeguard it.
-*** This gives us - as a species - unprecedented agency!
-*** Intellectual property threatens our future.
-**** What if only Elon Musk knows how to go to Mars?
-** Open source alone is not enough.
-*** the four freedoms!
-** If not for Free Software, patent lawyers would rule us.
-*** We wouldn't be able to write a single line of code without risking getting sued by a megacorp with a patent portfolio.
+[slide: printer]
+
+I'd like to tell you the parable of Richard and the Printer.
+
+The year was, ominously, 1984, and [relate the story of the printer].
+
+This marked the beginning of the era of non-disclosure agreements and proprietary software.
+
+[slide: GPL]
+
+Richard went on to develop his sense of betrayal of the socialist principles of hackerdom into the GNU General Public Licence and the Free Software movement, the idea that software is a communal good and must stay in the public domain where it can be studied and modified freely.
+
+[slide: esr]
+
+In the mid 90s, a rival but similar idea arose: that of Open Source.
+
+A man called Eric Raymond published a text called the Cathedral and the Bazaar, said even by some people who were not called Eric Raymond to have inspired the Open Source movement, promoting the idea that the best way to build software was in the open, where everyone was free to inspect the code, spot bugs and suggest fixes. It was a strictly utilitarian philosophy, unlike the socialism of Free Software, but still arguably with the greater good in mind.
+
+[slide: mainstream]
+
+The two flagships of the open source movement were Linux, GPL from the start but not a part of the Free Software movement, and Netscape, which went from a proprietary product to an open source project, out of which the Mozilla Foundation grew.
+
+[slide: licences]
+
+The open source movement, developing during the 90s and 00s, tended to spurn the GPL, depending rather on what they called "permissive" licences, most popularly BSD and MIT. These did not include the GPL's share-alike clauses, pragmatically allowing proprietary software to incorporate open source software without needing to share back.
+
+[slide: art]
+
+And, arriving at this decade, the idealism of Free Software and the pragmatism of the open source movement is morphing into something new again: it's becoming something almost like art, programming as self-expression, where the artist isn't concerned with community improvement or collective bug fixing so much as putting their work out there, to be appreciated for its own sake. We're still, as a community, trying to figure out the shape of this new open source, but it's exciting to me because in many ways this has been my own motivation from the start.
+
+[slide: agency]
+
+But, in summary, whether you see it as socialism or pragmatism or art, what it all boils down to, ultimately, and what makes it so extremely important as an idea, is that open source gives us *agency*.
+
+[slide: power]
+
+Open source grants us the power, first of all, as Richard demanded...
+
+[slide: create]
+
+...to create: we have the source code for the software we use available, so that we can easily customise it, improve it and repair it as we see fit. This empowers us as users as well as programmers, and it enhances the larger community of users and programmers.
+
+[slide: learn]
+
+And this is perhaps the most important of all: it also gives us the power to learn how software is built. We have the vast bulk of open source software available to us, and we have the ability to examine it to learn how it works, and how to build similar systems of our own. Anyone can do this, given the admittedly not unrestricted resource of time: there are no gate keepers to the knowledge.
+
+And this is what's so crucially important about the idea of open source.
+
+[slide: musk]
+
+To clarify this, let me tell you another story: that of the man who wanted to go to Mars. Let's call him Elon. His ambition is no less than to put a human colony on the planet Mars.
+
+Now, interestingly, at least for the short term, SpaceX is developing the technology they'll need to facilitate space travel in the open, citing the fact that their only real competitors are public interest agencies like NASA which do the same, sharing their technological advances openly.
+
+In a very real sense, they're an open source company in a larger open source community.
+
+Now imagine if this were not the case. Imagine, perhaps, if...
+
+[slide: ellison]
+
+...someone with different ideas about intellectual property were in charge of the company.
+
+Imagine if the knowledge needed to send our species to another planet was locked away inside some company's intellectual vaults. Imagine if some company was the gate keeper to humanity's ability to colonise the universe.
+
+And, pulling back a bit from the grand vision of space, imagine if companies controlled the knowledge of how to write different kinds of software inside their corporate silos. Imagine if the only way to learn how to be a serious programmer was to sign up with some megacorp, and you were only allowed to use the knowledge you gained from it as it directed you, or patent lawsuits would shut you down.
+
+This is the sort of thing that keeps me up at night.
+
+[slide: knowledge]
+
+So the point I'm trying to make is that it's not ultimately about the software we write, it's about the knowledge we put out there of how to build the software we write. The programmes we leave behind are *not* our real legacy - what we're really contributing is the *knowledge*.
+
+[slide: protect]
+
+And it's actually really important to me that we think very seriously about how we *protect* that knowledge, which belongs to all of us, from being locked away behind walls of intellectual property.
+
+[slide: GPL]
+
+One mechanism for this, returning to the world of software, is the one Richard left us: the General Public Licence.
+
+I'm sorry, this is the part of the talk where I go into the boring details of software licencing.
+
+[slide: cheat sheet]
+
+Now, if, like me, you really believe in making sure the knowledge always stays out in the open, these are the licences you should choose. The GPL says that not only must your code remain freely available, it also cannot be linked with proprietary software, so that it must always exist within a fully open ecosystem. If you've heard the term "viral" applied to the GPL, that was Microsoft's way of referring to this in as negative a way as they could think of.
+
+There's also a less demanding version of the GPL, called the "lesser" GPL, or LGPL.
+
+The Mozilla Foundation developed their own licence, which makes the same demands as the GPL does, but restricted to the project, or even the source file, it's applied to. This is also a good licence to consider.
+
+If you're making things which aren't software, such as writing, visual art or music, consider a Creative Commons licence with the Share-Alike property enabled, which means that people are free to copy and modify your work, but any modification must be contributed back to the community under the same licence.
+
+[slide: cheat sheet 2]
+
+Now, all this is from the perspective of someone who really wants to make sure their work always stays out in the open. This is my own position, but it's also reasonable, and in fact a lot more common, to just want your work to be freely available to anyone to use as they please. This is the default position of the Open Source movement.
+
+In this case, I'd like to make a plea: you've probably noticed that the default licence for this is the MIT licence, and I mentioned earlier that BSD is another popular choice.
+
+I'd like to urge you to please use the Apache Licence instead. MIT is *probably* a perfectly good licence, but this is based on the assumption that a lot of the stuff that's *implied* by the text of the MIT licence actually holds in a court of law. The Apache licence actually contains explicit language for these things, and is therefore much more likely to hold up in court.
+
+An example of this is that MIT contains an implied patent grant, which matters because users of your software wouldn't want you to be able to sue them for patent infringement if they use it. MIT basically says "you're free to use this software without restrictions," which implies that you won't have to buy separate licences for patents held by the author. Apache has specific language for these patent grants.
+
+So, please, please consider the Apache licence for your next project. Or, of course, consider the GPL or Mozilla licences.
+
+[slide: imperfect]
+
+Now, right at the end, I feel it would be almost dishonest of me not to address what might well be considered the elephant in the room.
+
+We all know that our community leaders sometimes turn out to be a bit rubbish.
+
+Richard, as it happens, is no exception. I don't think he's actually malicious, in any real sense, but the truth is he's said some fairly awful things on occasion. I think he's more of a case of not knowing how to not be a dick sometimes. That doesn't mean he's not problematic as a leader of the Free Software community, and, honestly, I think maybe it's time for him to step down and let someone who can handle themselves in an inclusive society take over.
+
+As for Eric Raymond, frankly, he's been beyond horrible since I first encountered the idea of Eric Raymond in the 90s. Luckily, he's only still relevant to people who are as horrible as he is.
+
+My purpose in going to this rather dark place is to stress that even though the idea of open source may not always have sprung from the most saintly of people, *it's not about the people in the end*. It's about the ideal of open source, from whichever direction you approach it, left or right, care or don't care.
+
+[slide: everything]
+
+Because, in the end, what it comes down to is the knowledge embedded in the community. The knowledge of how to write software, and, more broadly, the knowledge of how to do anything we as humans are able to do. Even, one day, to go to the stars. We must preserve that knowledge, at all costs.
+
+[slide: bye]
